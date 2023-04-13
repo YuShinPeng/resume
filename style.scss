@@ -1,0 +1,84 @@
+//css reset
+body{
+    padding:0;
+    margin: 0;
+}
+
+//css 顏色樣式
+$primary-color:rgb(43, 43, 201);
+
+.container{
+    margin:0 100px;
+    background-color: lightblue;
+}
+
+//Header
+.header{
+    width: 100%;
+    height: 30%;
+    background-color: $primary-color;
+   justify-content: center;
+   align-items: center;
+   color:#ffffff;
+    img{
+        width: 150px;
+        height: 130px;  
+        border-radius:45%;
+        background-color: white;
+        display: block;
+        margin:auto;
+    }
+    h1{
+        text-align: center;
+    }
+
+    h2{
+        text-align: center;
+    }
+}
+
+
+//Area1 profile
+.area1{
+
+
+    h2{
+        border-bottom: 1px solid black;
+    }
+
+    .eg{
+        color:blue;
+    }
+}
+
+   
+
+//Area2 education
+.area2{
+    h2{
+        border-bottom: 1px solid black;
+    }
+    .eg{
+        color:blue;
+    }
+}
+
+//Area3 skill
+.area3{
+    h2{
+        border-bottom: 1px solid black;
+    }
+    .eg{
+        color:blue;
+    }
+}
+
+//Area4 work experience
+.area4{
+    h2{
+        border-bottom: 1px solid black;
+    }
+    .eg{
+        color:blue;
+    }
+}
